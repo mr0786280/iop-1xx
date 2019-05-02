@@ -1,16 +1,41 @@
 /* CSS Document */
 
-body {
-	background-color: #CCC;
+html {
+    height: 100%;
+    overflow: hidden;
 }
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    color: #fff;
+    background-color: #9cf;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#6af), to(#bdf));
+    background-image: -webkit-linear-gradient(#6af, #bdf);
+    background-image: -moz-linear-gradient(#6af, #bdf);
+    background-image: linear-gradient(#6af, #bdf);
+	
+	
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
 
 /* snowman */
 .snowman {
-	
-	width: 250px;
-	margin: auto;
-	overflow: visible;
-	border: dashed thin green;
+    text-align: center;
+    width: 250px;
+    margin: auto;
+    overflow: visible;
+    position: fixed;
+    bottom: 90px;
+    left: 40%;
 	
 }
 
@@ -111,7 +136,6 @@ body {
 	z-index: 9;
 	width: 75%;
 	height: 170px;
-	
 }
 
 .smFeet {
@@ -121,6 +145,21 @@ body {
 	z-index: 8;
 	width: 90%;
 	height: 200px; 
+}
+
+.hill {
+	margin-bottom: -600px;
+    border-top: 2px solid #000;
+    width: 900%;
+	height: 100px;
+	left: -100px ;
+    margin: -10%;
+    min-height: 80px;
+    padding: 100%;
+    border-radius: 50%;	
+    border-left-color: transparent;
+    border-right-color: transparent;
+    background-color: #FFF;
 }
 
 
