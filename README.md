@@ -12,3 +12,8 @@ http://iop-7xx.catchthesehands.net
 	★ created assets/css/style.css file
 	★ created styles for snowman divs
 	★ linked style.css file in index.html
+
+★ iop-7xx ~ version 700-1
+
+	★ added snowman face and hat divs to index.html
+	★ created styles for snowman face and hat divs
