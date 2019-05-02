@@ -17,3 +17,12 @@ http://iop-7xx.catchthesehands.net
 
 	★ added snowman face and hat divs to index.html
 	★ created styles for snowman face and hat divs
+
+★iop-7xx ~ version 701-0
+
+	★ added hill div into index.html below the snowman
+	★ added the hill class styles to the css files
+	★ added the background gradients to the body
+	★ forced content to stay in window and the overflow to be hidden by adding html styles
+	★ forced scroll bar to be hidden
+	★ updated snowman stlye to center the snowman in the screen (although this failed so I tried different methods)
